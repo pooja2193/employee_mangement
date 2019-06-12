@@ -1,0 +1,46 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="employee.js"></script>
+    <title>EMPLOYEE DETAILS</title>
+</head>
+<body>
+<button id="employees">GET</button>
+<table id="recordsTable" border='1'>
+    <span><p>Enter Id </p></span>
+    <input id="searchValue" type="text">
+    <button id="search">Search</button>
+    <p id="searchText"></p>
+    <button id="create">Create employee</button>
+    <div id="createEmp" style=" visibility: hidden;">
+        <p>Enter name</p>
+        <input id="emp_name" type="text">
+        <p>Enter salary</p>
+        <input id="emp_sal" type="text">
+        <p>Enter age</p>
+        <input id="emp_age" type="text">
+        <button id="addEmp">Add</button>
+    </div>
+    <button id="update_emp">Update</button>
+    <div id="updateEmp" style="visibility: hidden;">
+        <p>Enter id to update</p>
+        <input id="id_upd" type="text">
+        <p> Enter name to be update</p>
+        <input id="upd_name" type="text">
+        <p>Enter age to update</p>
+        <input id="upd_age" type="text">
+        <p>Enter salary to update</p>
+        <input id="upd_salary" type="text">
+        <button id="updEmp">update employee</button>
+    </div>
+    <button id="delete">Delete employee</button>
+    <div id="delete_id" style="visibility: hidden">
+        <p>Enter id to delete</p>
+        <input id="del_id" type="text">
+        <button id="del_user">Delete employee</button>
+    </div>
+
+</table>
+
+</body>
+</html>
